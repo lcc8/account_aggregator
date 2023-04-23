@@ -1,0 +1,10 @@
+spring:
+  jackson:
+    deserialization:
+      FAIL_ON_UNKNOWN_PROPERTIES: true
+agg:
+  providers:
+   - name: production-provider1
+     url: https://provider1.com/v1/api/account/validate
+   - name: production-provider2
+     url: https://provider2.com/v2/api/account/validate
